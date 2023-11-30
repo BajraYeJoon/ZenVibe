@@ -13,38 +13,38 @@
 body {
   font-family: Inter;
 
-  background: hsla(273, 100%, 85%, 1);
+  background: hsla(273, 100%, 95%, 1);
 
   background: linear-gradient(
     180deg,
-    hsla(273, 100%, 85%, 1) 0%,
-    hsla(340, 71%, 96%, 1) 100%
+    hsla(273, 100%, 95%, 1) 0%,
+    hsla(0, 0%, 96%, 1) 100%
   );
 
   background: -moz-linear-gradient(
     180deg,
-    hsla(273, 100%, 85%, 1) 0%,
-    hsla(340, 71%, 96%, 1) 100%
+    hsla(273, 100%, 95%, 1) 0%,
+    hsla(0, 0%, 96%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
     180deg,
-    hsla(273, 100%, 85%, 1) 0%,
-    hsla(340, 71%, 96%, 1) 100%
+    hsla(273, 100%, 95%, 1) 0%,
+    hsla(0, 0%, 96%, 1) 100%
   );
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DBB0FF", endColorstr="#fcedf2", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3E4FF", endColorstr="#F5F5F5", GradientType=1 );
 }
 
 @layer utilities {
   .btn_white {
     @apply border-white bg-white px-8 py-3 text-green-50;
   }
-  .btn_white_text {
-    @apply border-white bg-white px-8 py-3 text-gray-50;
+  .btn_black_text {
+    @apply border-white bg-white px-8 py-3 text-black;
   }
-  .btn_green {
-    @apply border-green-50 bg-green-50 px-8 py-5 text-white;
+  .btn_light {
+    @apply border-link/20 bg-link px-8 py-5 text-black;
   }
   .btn_nav {
     @apply bg-accentLight px-8 py-4 text-black transition-all hover:bg-primary/90;
@@ -115,11 +115,11 @@ body {
   }
 
   .bold-88 {
-    @apply text-[88px] font-[700] leading-[120%];
+    @apply text-[90px] font-[700] leading-[120%];
   }
 
-  .bold-64 {
-    @apply text-[64px] font-[700] leading-[120%];
+  .bold-74 {
+    @apply text-[74px] font-[700] leading-[120%];
   }
 
   .bold-52 {
@@ -148,7 +148,7 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-[10%] top-0 h-[80vh] w-[30vw] bg-hero-bg bg-cover bg-center xl:top-5;
   }
 
   /* Camp */
