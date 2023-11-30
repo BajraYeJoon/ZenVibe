@@ -9,10 +9,10 @@ export const NAV_LINKS = [
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  "/persons/person-1.avif",
-  "/persons/person-2.avif",
-  "/persons/person-3.avif",
-  "/persons/person-4.avif",
+  "/persons/person-1.jpeg",
+  "/persons/person-2.jpeg",
+  "/persons/person-3.jpeg",
+  "/persons/person-4.jpeg",
 ];
 
 // FEATURES SECTION

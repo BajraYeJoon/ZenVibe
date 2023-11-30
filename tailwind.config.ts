@@ -13,8 +13,8 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 
-        "bg-img-1": "url('/img-1.png')",
-        "bg-img-2": "url('/img-2.png')",
+        "bg-img-1": "url('/background/img-1.jpg')",
+        "bg-img-2": "url('/background/img-2.jpg')",
         "feature-bg": "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
         "hero-bg": "url('/hero-bg.jpg')",

@@ -47,7 +47,7 @@ body {
     @apply border-link/20 bg-link px-8 py-5 text-black;
   }
   .btn_nav {
-    @apply bg-accentLight px-8 py-4 text-black transition-all hover:bg-primary/90;
+    @apply bg-link px-8 py-4 text-black transition-all hover:bg-link/70;
   }
   .btn_dark_green_outline {
     @apply border-gray-50 bg-green-500 px-8 py-5 text-white;
