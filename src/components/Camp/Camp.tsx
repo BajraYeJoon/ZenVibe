@@ -21,7 +21,13 @@ const YogaTypes = ({
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 text-primary">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-highlightLight p-4">
-            <Image src="/pose.svg" alt="map" width={28} height={28} />
+            <Image
+              src="/pose.svg"
+              alt="map"
+              width={28}
+              height={28}
+              data-aos="zoom-in"
+            />
           </div>
           <div className="flex flex-col gap-1">
             <h4 className="bold-18 text-link/90">{title}</h4>
@@ -68,7 +74,11 @@ const Yoga = () => {
         />
       </div>
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-20">
-        <div className="bg-link p-8 lg:max-w-[300px] xl:max-w-[500px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+        <div
+          className="bg-link p-8 lg:max-w-[300px] xl:max-w-[500px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <h2 className="regular-24 md:regular-32 capitalize text-white">
             <strong>Discover Your Inner Peace</strong> Through Yoga
           </h2>
