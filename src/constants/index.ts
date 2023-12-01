@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Real maps can be offline",
-    icon: "/map.svg",
-    variant: "green",
+    title: "Access Guided Yoga Sessions Anywhere",
+    icon: "/features/mat.svg",
+
     description:
-      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+      "Enjoy guided yoga sessions anywhere, even without an internet connection. Take your yoga practice to serene locations, and stay connected with your inner self.",
   },
   {
-    title: "Set an adventure schedule",
-    icon: "/calendar.svg",
-    variant: "green",
+    title: "Create Personalized Yoga Schedules",
+    icon: "/features/calenar.svg",
+
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Create personalized yoga schedules and plan your sessions with ease. Embrace a balanced life by scheduling yoga classes with friends and discovering new practices.",
   },
   {
-    title: "Technology using augment reality",
-    icon: "/tech.svg",
-    variant: "green",
+    title: "Experience Yoga with Augmented Reality",
+    icon: "/features/ar.svg",
+
     description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+      "Immerse yourself in the world of yoga using augmented reality. Let technology guide your yoga journey, from mindful forests to mountainous landscapes, even offline.",
   },
   {
-    title: "Many new locations every month",
-    icon: "/location.svg",
-    variant: "orange",
+    title: "Discover New Yoga Retreats Monthly",
+    icon: "/features/update.svg",
+
     description:
-      "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+      "Explore new yoga retreats every month. Join our global community of yogis, sharing experiences and uncovering the best yoga destinations for a transformative experience.",
   },
 ];
 
@@ -52,17 +52,12 @@ export const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
-      "About Hilink",
-      "Press Releases",
+      "About zenvibe",
       "Environment",
       "Jobs",
       "Privacy Policy",
       "Contact Us",
     ],
-  },
-  {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
   },
 ];
 
@@ -70,17 +65,11 @@ export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
     { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Email Officer", value: "binaya.bajrashakya@gmail.com" },
   ],
 };
 
 export const SOCIALS = {
   title: "Social",
-  links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
-  ],
+  links: ["/facebook.svg", "/instagram.svg", "/twitter.svg", "/youtube.svg"],
 };

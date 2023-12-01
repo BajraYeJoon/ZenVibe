@@ -25,14 +25,19 @@ const MobileApp = () => {
               type="button"
               title="Play Store"
               icon="/android.svg"
-              variant="btn_dark_green_outline"
+              variant="btn_dark_gray_outline"
               full
             />
           </div>
         </div>
 
         <div className="flex flex-1 items-center justify-end">
-          <Image src="/phones.png" alt="phones" width={550} height={870} />
+          <Image
+            src="/features/app.png"
+            alt="phones"
+            width={550}
+            height={870}
+          />
         </div>
       </div>
     </section>

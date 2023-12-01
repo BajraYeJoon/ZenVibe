@@ -38,7 +38,7 @@ body {
 
 @layer utilities {
   .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50;
+    @apply border-white bg-white px-8 py-3 text-subtitlePrimary;
   }
   .btn_black_text {
     @apply border-white bg-white px-8 py-3 text-black;
@@ -49,8 +49,8 @@ body {
   .btn_nav {
     @apply bg-link px-8 py-4 text-black transition-all hover:bg-link/70;
   }
-  .btn_dark_green_outline {
-    @apply border-gray-50 bg-green-500 px-8 py-5 text-white;
+  .btn_dark_gray_outline {
+    @apply border-gray-500 bg-subtitlePrimary px-8 py-5 text-white;
   }
 
   .max-container {
@@ -122,8 +122,12 @@ body {
     @apply text-[74px] font-[700] leading-[120%];
   }
 
-  .bold-52 {
-    @apply text-[52px] font-[700] leading-[120%];
+  .bold-64 {
+    @apply text-[64px] font-[700] leading-[120%];
+  }
+
+  .bold-58 {
+    @apply text-[58px] font-[700] leading-[120%];
   }
 
   .bold-40 {
@@ -158,12 +162,12 @@ body {
 
   /* Feature */
   .feature-phone {
-    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex;
+    @apply absolute top-[20%] z-10 hidden max-w-[1500px] md:-left-10 lg:flex;
   }
 
   /* Get App */
   .get-app {
-    @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-50 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px];
+    @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-link  bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] rounded-2xl;
   }
 }
 
