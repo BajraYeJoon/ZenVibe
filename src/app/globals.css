@@ -162,7 +162,7 @@ body {
 
   /* Feature */
   .feature-phone {
-    @apply absolute top-[20%] z-10 hidden max-w-[1500px] md:-left-10 lg:flex;
+    @apply absolute top-[20%] z-10 hidden max-w-[1500px] md:-left-1 rotate-6 lg:flex rounded-3xl;
   }
 
   /* Get App */
