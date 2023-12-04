@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row mb-20">
+    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row md:mb-20 mb-4">
       <div className="hero-map" />
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-3/4">
@@ -17,7 +17,7 @@ const Hero = () => {
           data-aos-duration="1500"
         />
         <h1
-          className="bold-52 lg:bold-74 w-full"
+          className="bold-40 lg:bold-74 w-full"
           data-aos="fade-right"
           data-aos-duration="1500"
         >
@@ -68,7 +68,7 @@ const Hero = () => {
       </div>
 
       <div
-        className="relative flex flex-1 items-start"
+        className="hidden md:relative md:flex flex-1 items-start"
         data-aos="zoom-in"
         data-aos-duration="2500"
       >

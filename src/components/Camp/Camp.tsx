@@ -16,7 +16,7 @@ const YogaTypes = ({
 }: YogProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[1000px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-3xl `}
+      className={`h-full w-full min-w-[100vw] md:min-w-[1000px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-3xl `}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 text-primary">
         <div className="flexCenter gap-4">
@@ -75,7 +75,7 @@ const Yoga = () => {
       </div>
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-20">
         <div
-          className="bg-link p-8 lg:max-w-[300px] xl:max-w-[500px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl"
+          className="bg-link p-8 lg:max-w-[300px] xl:max-w-[500px] xl:rounded-5xl xl:px-16 xl:py-20 md:relative w-full overflow-hidden rounded-3xl mb-10"
           data-aos="zoom-in"
           data-aos-duration="1000"
         >
