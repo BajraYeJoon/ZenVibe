@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
@@ -12,6 +12,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const containerRef = useRef(null);
+
   useEffect(() => {
     AOS.init({
       duration: 1200,
@@ -21,7 +23,15 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <main className="relative overflow-hidden">{children}</main>
+
+        <main
+          className="relative overflow-hidden"
+          data-scroll-container
+          ref={containerRef}
+        >
+          {children}
+        </main>
+
         <Footer />
       </body>
     </html>
