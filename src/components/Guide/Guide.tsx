@@ -31,7 +31,7 @@ const Guide = () => {
           className="w-full object-contain lg:ml-44 rounded-3xl shadow-md"
         />
 
-        <div className="absolute flex bg-link py-8 pl-5 pr-7 gap-3 rounded-3xl border border-link shadow-md md:left-[5%] lg:top-20 lg:-left-[2%]">
+        <div className="hidden md:absolute md:flex bg-link py-8 pl-5 pr-7 gap-3 rounded-3xl border border-link shadow-md md:left-[5%] lg:top-20 lg:-left-[2%]">
           <div className="flexBetween flex-col">
             <div className="flex w-full flex-col">
               <p className="regular-16 text-black">Yoga Session</p>
