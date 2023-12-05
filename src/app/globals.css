@@ -152,7 +152,7 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-[10%] top-0 md:h-[80vh] w-[30vw] bg-hero-bg bg-cover bg-center xl:top-5 opacity-40 md:opacity-0;
+    @apply absolute right-[10%] top-0 md:h-[80vh] w-[30vw] bg-hero-bg bg-cover bg-center xl:top-5 opacity-40 md:opacity-100;
   }
 
   /* Camp */
